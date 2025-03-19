@@ -1,3 +1,46 @@
 .card{
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 0;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin: 20px 0;
+}
+
+.card > *{
+    text-align: center;
+}
+
+
+.features{
+    /* display: flex;
+    flex-direction: column; */
+    gap: 10px;
+    list-style-type: none;
+}
+
+.btn{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: .1px solid white;
+    transition: all 0.3s ease;  
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
     color: white;
 }
