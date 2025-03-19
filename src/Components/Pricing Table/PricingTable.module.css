@@ -1,0 +1,16 @@
+.head{
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.pricingTable{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

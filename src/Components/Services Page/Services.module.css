@@ -1,0 +1,21 @@
+.head{
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+}
+
+.services::-webkit-scrollbar{
+    display: none;
+}
