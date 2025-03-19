@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+    text-align: center;
+    margin: 100px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.pplContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    overflow-x: scroll;
+
+}
+
+.pplContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.searchInput{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px auto;
+    color: white;
+}

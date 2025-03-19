@@ -1,0 +1,60 @@
+.contactContainer {
+    width: 100%;
+    max-width: 400px; 
+    margin: 100px auto;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px; 
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: gray;
+}
+
+.textarea {
+    height: 120px;
+    resize: none;
+}
+
+.button {
+    width: 50%; 
+    background: #007bff;
+    color: white;
+    padding: 8px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center; 
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+
+}

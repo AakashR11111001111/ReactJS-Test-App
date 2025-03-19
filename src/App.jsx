@@ -3,6 +3,8 @@ import './App.css'
 import Landing from './Components/Landing Page/Landing'
 import Services from './Components/Services Page/Services'
 import PricingTable from './Components/Pricing Table/PricingTable';
+import Peoples from './Components/Peoples/Peoples';
+import ContactUs from './Components/Contact Us/ContactUs';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Landing onGetStartedClick={onGetStartedClick} />
           <Services ServiceRef={ServiceRef} />
           <PricingTable />
+          <Peoples />
+          <ContactUs />
     </>
   )
 }
